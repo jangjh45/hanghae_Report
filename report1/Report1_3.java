@@ -1,4 +1,4 @@
-package src.report1;
+package report1;
 //2-8. 아래는 변수 x, y, z의 값을 서로 바꾸는 예제이다. 결과와 같이 출력되도록 코드를 넣으세요.
 public class Report1_3 {
     public static void main(String[] args) {

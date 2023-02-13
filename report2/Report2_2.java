@@ -1,4 +1,4 @@
-package src.report2;
+package report2;
 //3-2. 다음 연산의 결과와 그 이유를 적으세요.
 public class Report2_2 {
     public static void main(String[] args){
