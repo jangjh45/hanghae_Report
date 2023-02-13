@@ -1,0 +1,9 @@
+2-7번 번 문제
+
+정답 :   System.out.println("1"+"2"); 12
+        System.out.println(true+""); boolean true가 문자열"true"가 된다.
+        System.out.println('A'+'B'); 아스키코드 A는65 B는66이다. 65+66 = 131이다.
+        System.out.println('1'+2); 아스키코드 1은 48이다. 48+2는 51이다.
+        System.out.println('1'+'2'); 아스키코드 1은48 2는49 49+50 = 99이다.
+        System.out.println('J'+"ava");  문자가 문자열로 변환됨 Java
+        System.out.println(true+null); 오류
