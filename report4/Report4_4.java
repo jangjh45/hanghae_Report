@@ -20,7 +20,8 @@ public class Report4_4 {
                 count++;
             }
         }
-        average = (float) total / count;
+//        average = (float) total / count;
+        average = (float) total / (arr.length*arr[0].length);
 
         System.out.println("total=" + total);
         System.out.println("average=" + average);
