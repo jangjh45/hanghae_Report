@@ -7,24 +7,10 @@ public class Report3_9 {
         int num = 12345;
         int sum = 0;
 
-        int value1 = num/10000;
-        sum += value1;
-        num = num%10000;
-
-        int value2 = num/1000;
-        sum += value2;
-        num = num%1000;
-
-        int value3 = num/100;
-        sum += value3;
-        num = num%100;
-
-        int value4 = num/10;
-        sum += value4;
-        num = num%10;
-
-        sum += num;
-
+        while(num > 0){
+            sum += num%10;
+            num = num/10;
+        }
         System.out.println("sum="+sum);
     }
 }

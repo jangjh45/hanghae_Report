@@ -19,8 +19,15 @@ public class Report3_10 {
             System.out.print("1과 100사이의 값을 입력하세요 : ");
             input = s.nextInt(); //입력받은 값을 변수 input에 저장한다.
             if (input == answer) {
+                System.out.println("맞혔습니다.");
                 System.out.println("시도 횟수 : " + count);
                 break;
+            }
+            else if(input<answer){
+                System.out.println("더 큰 수를 입력하세요");
+            }
+            else if(input>answer){
+                System.out.println("저 작은 수를 입력하세요");
             }
 
         } while (true); //무한반복문
