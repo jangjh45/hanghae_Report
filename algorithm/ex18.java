@@ -1,6 +1,6 @@
 package algorithm;
 
-public class ex18 {
+public class ex18 { // 서울에서 김서방 찾기
     public static void main(String[] args) {
         String[] seoul = {"Jane, Kim"};
         String answer = "";
