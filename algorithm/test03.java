@@ -60,7 +60,6 @@ public class test03 {
                         continue Loop;
                     }
                 }
-
             }
         }
         return answer;
