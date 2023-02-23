@@ -18,8 +18,8 @@ class SutdaDeck2 {
     }
 
     void shuffle() {
-        for (int i=0; i<cards.length; i++){
-            int random = (int)(Math.random()*cards.length);
+        for (int i = 0; i < cards.length; i++) {
+            int random = (int) (Math.random() * cards.length);
             SutdaCard2 tmp = cards[i];
             cards[i] = cards[random];
             cards[random] = tmp;
@@ -31,7 +31,7 @@ class SutdaDeck2 {
     }
 
     SutdaCard2 pick() {
-        int random = (int)(Math.random()*cards.length);
+        int random = (int) (Math.random() * cards.length);
         return cards[random];
     }
 } // SutdaDeck2
@@ -50,7 +50,7 @@ class SutdaCard2 {
     }
 
     public String toString() {
-        return num + ( isKwang ? "K":"");
+        return num + (isKwang ? "K" : "");
     }
 }
 
@@ -62,8 +62,8 @@ class Exercise7_2 {
         System.out.println(deck.pick());
         deck.shuffle();
 
-        for(int i=0; i < deck.cards.length;i++)
-            System.out.print(deck.cards[i]+",");
+        for (int i = 0; i < deck.cards.length; i++)
+            System.out.print(deck.cards[i] + ",");
 
         System.out.println();
         System.out.println(deck.pick(0));
