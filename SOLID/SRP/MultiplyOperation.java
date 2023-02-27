@@ -1,6 +1,6 @@
-package report9.OCP;
+package SOLID.SRP;
 
-public class MultiplyOperation implements AbstractOperation {
+public class MultiplyOperation {
     public int operate(int firstNumber, int secondNumber) {
         return firstNumber * secondNumber;
     }

@@ -1,6 +1,7 @@
-package report9.OCP;
+package SOLID.OCP;
 
-public class DivideOperation implements AbstractOperation {
+public class DivideOperation extends AbstractOperation {
+    @Override
     public int operate(int firstNumber, int secondNumber) {
         return firstNumber / secondNumber;
     }

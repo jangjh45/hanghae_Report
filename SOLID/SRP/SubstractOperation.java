@@ -1,6 +1,6 @@
-package report9.OCP;
+package SOLID.SRP;
 
-public class SubstractOperation implements AbstractOperation {
+public class SubstractOperation {
     public int operate(int firstNumber, int secondNumber) {
         return firstNumber - secondNumber;
     }
